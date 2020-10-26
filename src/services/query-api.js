@@ -6,6 +6,7 @@ export const makeRequest = ({ method, url, body }) => {
     headers: {
       'Content-Type': 'application/json'
     },
+    body
   })
     .then(res => res.json());
  
