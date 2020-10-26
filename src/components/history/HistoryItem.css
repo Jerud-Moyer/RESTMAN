@@ -2,8 +2,15 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  max-width: 200px;
+  overflow: scroll;
   border: solid black 1px;
   margin: 5px;
   padding: 5px;
   background-color: rgb(168, 187, 207);
+
+  .url {
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
 }

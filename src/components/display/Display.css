@@ -8,6 +8,7 @@
   padding: 5px;
   min-height: 22em;
   max-height: 40vh;
+  max-width: 63vw;
   background-color: rgb(204, 200, 212);
   overflow: scroll;
 }

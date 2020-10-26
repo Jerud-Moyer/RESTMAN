@@ -1,10 +1,10 @@
 .History {
   display: flex;
   
-  flex-direction: columns;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   border: blue 4px solid;
   border-radius: 8px;
   min-height: 33em;
@@ -17,18 +17,21 @@
   box-shadow: 5px 5px lightslategray;
 
   h1 {
+    position: relative;
     flex-direction: column;
     font-size: large;
     text-shadow: 1px 1px 1px blue;
   }
 
   .Item {
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     box-shadow: 2px 2px 2px lightslategray;
+    font-size: 12px;
     
   }
 
