@@ -53,7 +53,7 @@ export default class Resty extends Component {
             results={results}
           />
         </div>
-        <div>
+        <div className={styles.HistoryBox}>
           <History
             searches={searches}
           />

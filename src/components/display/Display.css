@@ -1,0 +1,11 @@
+.Display {
+  border: blue 4px solid;
+  border-radius: 8px;
+  box-shadow: 5px 5px lightslategray;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  min-height: 27em;
+  background-color: rgb(204, 200, 212);
+}

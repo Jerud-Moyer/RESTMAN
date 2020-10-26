@@ -1,4 +1,15 @@
 .Resty {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  background-color: rgb(168, 187, 207);
+
+  .HistoryBox {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    box-shadow: 5px 5px rgb(168, 200, 275);
+
+  }
 }

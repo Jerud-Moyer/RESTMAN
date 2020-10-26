@@ -11,7 +11,7 @@ const Controls =  ({
     <header>
       <h1 className={styles.header}>RESTMAN</h1>
     </header>
-    <form onSubmit={onSubmit}>
+    <form className={styles.form} onSubmit={onSubmit}>
       <label htmlFor="url">URL</label>
       <input className={styles.urlinput}
         id="url"

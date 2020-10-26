@@ -2,15 +2,17 @@
   display: flex;
   flex-direction: columns;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   border: blue 4px solid;
   border-radius: 8px;
+  min-height: 30em;
+  margin: 10px;
+  background-color: rgb(204, 200, 212);
+  box-shadow: 5px 5px lightslategray;
 
   h1 {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: large;
     text-shadow: 1px 1px 1px blue;
   }
