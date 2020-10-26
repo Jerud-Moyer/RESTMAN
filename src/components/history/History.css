@@ -1,0 +1,24 @@
+.History {
+  display: flex;
+  flex-direction: columns;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: blue 4px solid;
+  border-radius: 8px;
+
+  h1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-shadow: 1px 1px 1px blue;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+}

@@ -1,0 +1,13 @@
+.Control {
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 1px 2px blue;
+}
+.urlinput {
+  width: 600px;
+}
