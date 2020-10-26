@@ -18,7 +18,9 @@ exports[`History component renders History 1`] = `
           <span>
             GET
           </span>
-          <span>
+          <span
+            class="url"
+          >
             url.com
           </span>
         </div>
@@ -30,7 +32,9 @@ exports[`History component renders History 1`] = `
           <span>
             PUT
           </span>
-          <span>
+          <span
+            class="url"
+          >
             helloworld.com
           </span>
         </div>
@@ -42,7 +46,9 @@ exports[`History component renders History 1`] = `
           <span>
             DELETE
           </span>
-          <span>
+          <span
+            class="url"
+          >
             immaprogrammer.com
           </span>
         </div>
