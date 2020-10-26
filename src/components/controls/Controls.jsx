@@ -4,6 +4,7 @@ import styles from './Controls.css';
 
 const Controls =  ({
   url,
+  method,
   body,
   onChange,
   onSubmit
@@ -30,21 +31,24 @@ const Controls =  ({
         onChange={onChange}
       />
       <label className={styles.Control} htmlFor="method">POST</label>
-      <input id="method"
+      <input
+        id="method"
         type="radio"
         name="method"
         value="POST"
         onChange={onChange}
       />
       <label className={styles.Control} htmlFor="method">PUT</label>
-      <input id="method"
+      <input
+        id="method"
         type="radio"
         name="method"
         value="PUT"
         onChange={onChange}
       />
       <label className={styles.Control} htmlFor="method">DELETE</label>
-      <input id="method"
+      <input
+        id="method"
         type="radio"
         name="method"
         value="DELETE"
