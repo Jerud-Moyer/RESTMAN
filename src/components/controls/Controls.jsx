@@ -4,6 +4,7 @@ import styles from './Controls.css';
 
 const Controls =  ({
   url,
+  body,
   onChange,
   onSubmit
 }) => (
@@ -50,7 +51,13 @@ const Controls =  ({
         onChange={onChange}
       />
       <button type="submit">Submit</button>
-
+      <textarea
+        className={styles.JsonInput}
+        name="body"
+        value={body}
+        onChange={onChange}
+        placeHolder="raw JSON body"
+      />
 
     </form>
   </>
@@ -59,6 +66,7 @@ const Controls =  ({
 Controls.propTypes = {
   url: PropTypes.string.isRequired,
   method: PropTypes.string.isRequired,
+  body: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired
 };

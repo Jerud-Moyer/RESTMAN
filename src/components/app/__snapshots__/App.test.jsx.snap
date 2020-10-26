@@ -81,6 +81,11 @@ exports[`App component renders App 1`] = `
         >
           Submit
         </button>
+        <textarea
+          class="JsonInput"
+          name="body"
+          placeholder="raw JSON body"
+        />
       </form>
       <div
         class="Display"
@@ -203,7 +208,9 @@ exports[`App component renders App 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      class="HistoryBox"
+    >
       <div
         class="History"
       >

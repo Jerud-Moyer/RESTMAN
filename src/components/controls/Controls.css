@@ -4,6 +4,9 @@
 }
 
 .form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   border: blue 4px solid;
   border-radius: 8px;
   box-shadow: 5px 5px lightslategray;
@@ -27,5 +30,12 @@ button {
   background-color: rgb(168, 187, 207);
   margin-top: 4px;
   margin-left: 50px;
+  height: 30px;
   align-items: flex-end;
+}
+
+.JsonInput {
+  background-color: rgb(168, 187, 207);
+  width: 625px;
+  margin-top: 4px;
 }

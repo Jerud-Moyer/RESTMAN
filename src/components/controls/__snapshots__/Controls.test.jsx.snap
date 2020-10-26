@@ -77,6 +77,11 @@ exports[`Controls component renders Controls 1`] = `
     >
       Submit
     </button>
+    <textarea
+      class="JsonInput"
+      name="body"
+      placeholder="raw JSON body"
+    />
   </form>
 </DocumentFragment>
 `;
