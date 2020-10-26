@@ -29,7 +29,7 @@ label {
   text-shadow: 2px 1px 2px blue;
 }
 .urlinput {
-  min-width: 90%;
+  min-width: 97%;
   background-color: rgb(168, 187, 207);
   overflow: scroll;
 }
