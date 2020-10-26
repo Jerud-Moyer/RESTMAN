@@ -1,16 +1,17 @@
 .History {
   display: flex;
-  
+  position: fixed;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
   border: blue 4px solid;
   border-radius: 8px;
-  min-height: 33em;
-  max-height: 33em;
+  min-height: 36em;
+  max-height: 36em;
   overflow: scroll;
-  min-width: 3fr;
+  min-width: 14em;
+  margin-top: 100px;
   margin: 10px;
   padding: 10px;
   background-color: rgb(204, 200, 212);

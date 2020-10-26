@@ -14,13 +14,14 @@ const Controls =  ({
       <h1 className={styles.header}>RESTMAN</h1>
     </header>
     <form className={styles.form} onSubmit={onSubmit}>
-      <label htmlFor="url">URL</label>
+      <label htmlFor="url"></label>
       <input className={styles.urlinput}
         id="url"
         type="url"
         name="url"
         value={url}
         onChange={onChange}
+        placeholder="URL"
       />
       <label className={styles.Control} htmlFor="method">GET</label>
       <input

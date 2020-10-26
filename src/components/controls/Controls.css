@@ -29,7 +29,7 @@ label {
   text-shadow: 2px 1px 2px blue;
 }
 .urlinput {
-  width: 600px;
+  min-width: 90%;
   background-color: rgb(168, 187, 207);
   overflow: scroll;
 }
@@ -46,7 +46,7 @@ button {
 
 .JsonInput {
   background-color: rgb(168, 187, 207);
-  width: 625px;
+  min-width: 85%;
   margin-top: 4px;
   border: solid black 2px;
 }
