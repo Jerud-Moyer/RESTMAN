@@ -56,7 +56,7 @@ const Controls =  ({
         name="body"
         value={body}
         onChange={onChange}
-        placeHolder="raw JSON body"
+        placeholder="raw JSON body"
       />
 
     </form>
