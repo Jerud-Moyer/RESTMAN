@@ -18,13 +18,12 @@ exports[`App component renders App 1`] = `
       >
         <label
           for="url"
-        >
-          URL
-        </label>
+        />
         <input
           class="urlinput"
           id="url"
           name="url"
+          placeholder="URL"
           type="url"
           value=""
         />
