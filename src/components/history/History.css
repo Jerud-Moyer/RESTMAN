@@ -1,26 +1,47 @@
 .History {
   display: flex;
-  flex-direction: columns;
+  position: fixed;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   border: blue 4px solid;
   border-radius: 8px;
-  min-height: 30em;
+  min-height: 36em;
+  max-height: 36em;
+  overflow: scroll;
+  min-width: 14em;
+  margin-top: 100px;
   margin: 10px;
+  padding: 10px;
   background-color: rgb(204, 200, 212);
   box-shadow: 5px 5px lightslategray;
 
   h1 {
+    position: relative;
     flex-direction: column;
     font-size: large;
     text-shadow: 1px 1px 1px blue;
   }
 
-  .item {
+  .Item {
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px lightslategray;
+    font-size: 12px;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 
 }

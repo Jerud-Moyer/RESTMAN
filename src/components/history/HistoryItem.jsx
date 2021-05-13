@@ -5,7 +5,7 @@ import styles from './HistoryItem.css';
 const HistoryItem = ({ method, url }) => (
   <div className={styles.HistoryItem}>
     <span>{method}</span>
-    <span>{url}</span>
+    <span className={styles.url}>{url}</span>
   </div>
 );
 

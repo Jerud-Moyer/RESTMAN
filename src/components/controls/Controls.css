@@ -1,15 +1,25 @@
 .Control {
   margin: 20px;
+  max-width: 63vw;
   
 }
 
 .form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   border: blue 4px solid;
   border-radius: 8px;
   box-shadow: 5px 5px lightslategray;
   margin: 10px;
   padding: 5px;
   background-color: rgb(204, 200, 212);
+}
+
+label {
+  cursor: pointer;
 }
 
 .header {
@@ -19,13 +29,24 @@
   text-shadow: 2px 1px 2px blue;
 }
 .urlinput {
-  width: 600px;
+  min-width: 97%;
   background-color: rgb(168, 187, 207);
+  overflow: scroll;
 }
 
 button {
   background-color: rgb(168, 187, 207);
   margin-top: 4px;
   margin-left: 50px;
+  height: 30px;
   align-items: flex-end;
+  cursor: pointer;
+  box-shadow: 3px 3px lightslategray;
+}
+
+.JsonInput {
+  background-color: rgb(168, 187, 207);
+  min-width: 85%;
+  margin-top: 4px;
+  border: solid black 2px;
 }

@@ -6,6 +6,9 @@
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 5px;
-  min-height: 27em;
+  min-height: 22em;
+  max-height: 40vh;
+  max-width: 71vw;
   background-color: rgb(204, 200, 212);
+  overflow: scroll;
 }

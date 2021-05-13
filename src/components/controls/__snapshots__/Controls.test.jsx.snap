@@ -14,13 +14,12 @@ exports[`Controls component renders Controls 1`] = `
   >
     <label
       for="url"
-    >
-      URL
-    </label>
+    />
     <input
       class="urlinput"
       id="url"
       name="url"
+      placeholder="URL"
       type="url"
       value="Test url"
     />
@@ -77,6 +76,11 @@ exports[`Controls component renders Controls 1`] = `
     >
       Submit
     </button>
+    <textarea
+      class="JsonInput"
+      name="body"
+      placeholder="raw JSON body"
+    />
   </form>
 </DocumentFragment>
 `;

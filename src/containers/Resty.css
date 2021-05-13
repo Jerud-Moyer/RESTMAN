@@ -1,6 +1,6 @@
 .Resty {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   background-color: rgb(168, 187, 207);
 
   .HistoryBox {
@@ -10,6 +10,11 @@
     justify-content: center;
     min-width: 100%;
     box-shadow: 5px 5px rgb(168, 200, 275);
+    min-height: 100vh;
 
   }
+}
+
+body {
+  margin: 0;
 }
